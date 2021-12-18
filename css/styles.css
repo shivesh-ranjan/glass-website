@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+h1,h2,h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: 'Moon Dance', cursive;
+    font-size: 1.5rem;
+}
+
 main{
     min-height: 100vh;
     background: linear-gradient(to right top, rgb(0, 17, 255), rgb(0, 247, 255));
@@ -81,13 +89,33 @@ main{
     padding: 0rem 2rem;
 }
 .pro{
-    background: linear-gradient(to right top, rgb(0, 17, 255), rgb(0, 247, 255));
-    flex: 1;
+    background: linear-gradient(to right top, rgba(0, 17, 255, 0.5), rgba(0, 247, 255, 0.8));
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
     text-align: center;
     border-radius: 2rem;
     padding: 1rem;
+    position: relative;
+}
+
+.pro h2{
+    width: 40%;
+}
+.projects{
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.project{
+    background: linear-gradient(to top left, rgba(255,255,255,0.3),rgba(255,255,255,1));
+    padding: 1rem;
+    box-shadow: 1rem 1rem 5rem rgba(43, 43, 43, 0.5);
+}
+.projects h1{
+    padding:2rem;
+    font-size: xx-large;
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
 }
